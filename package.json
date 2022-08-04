@@ -8,7 +8,7 @@
     "npm": "8.10"
   },
   "scripts": {
-    "start": "node app",
+    "start": "cross-env NODE_ENV=production node src/app",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "keywords": [],
